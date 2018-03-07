@@ -1,0 +1,22 @@
+/*
+
+lit la tension analogique sur la broche analogique 2
+et affiche le résultat dans le moniteur série.
+
+cet exemple est dans le domaine public
+traduction française par X. HINAULT - www.mon-club-elec.fr
+
+ */
+
+void setup() {
+  Serial.begin(9600); // initialise la communication série
+  // vérifier que le débit utiliser est le même dans le Terminal Série
+}
+
+void loop() {
+  int sensorValue = analogRead(A2); // lit la valeur analogique sur la broche A0
+  // et met le résultat dans la variable
+
+  Serial.println(sensorValue, DEC); // affiche la variable dans le Terminal Serie
+
+}

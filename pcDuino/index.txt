@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Salle Hydraulique</title>
+		<link rel="stylesheet" href="omar.css">
+	</head>
+
+	<body>
+	<!-- Menu de navigation du site -->
+		<ul class="navbar">
+			<li><H4><a href="" onclick="javascript:event.target.port=8080">Graphique Temperature</H4></a>
+			<li><H4><a href="" onclick="javascript:event.target.port=8081">Photo Webcam</H4></a>
+			<li><H4><a href="/SD_card/lost+found/">Carte SD</H4></a>
+		</ul>
+
+	<!-- Contenu principal -->
+		<h1>Supervision de la salle du moteur hydraulique</h1>
+<div>
+		<p>
+		<h3><span class= Bienvenue> Bienvenue sur la page d'acceuil </span></h3> 
+
+		<p>Ces pages contiennent des outils permettant de mesurer périodiquement la température de la salle hydraulique
+		 et d'autre part d'avoir une prise de vue instantanée du thermometre electronique.<br/>
+		 Ces outils permettent de diagnostiquer les phenomenes "climatiques" .
+		</p>
+</div>	
+		
+		<!-- Signature -->
+		<span class= adresse><address>Fait le 03 Juin 2016.
+				<p>COPYRIGHT © Nicolas TALEC-BERNARD & CRNA-Ouest</p>
+		</address></span>
+		
+	</body>
+</html>

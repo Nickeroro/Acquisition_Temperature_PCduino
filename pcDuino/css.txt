@@ -1,0 +1,59 @@
+body {
+  padding-left: 18em;
+  font-family: DejaVu Sans, Times New Roman,Times, serif;
+  color: black;
+  background-color: #cfcfcf; 
+  height: 100%;
+  background-image: url(logo.png);
+  background-position: right top;
+  background-repeat: no-repeat;}
+
+h1 {
+  font-family: Arial Black, Helvetica, Geneva, Arial;
+  font-size: x-large;
+  }
+		
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 250px;
+  background-color: #cfcfcf;
+  border: 2px solid #555;
+  border-radius: 10px;
+}
+
+
+li a {
+display: block;
+color: #000;
+padding: 8px 0 8px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #0000FF;
+color: white;
+}
+
+.Bienvenue{
+color: blue;
+}
+
+div{
+width: 700px;
+text-align: justify;
+padding: 12px;
+margin: center; 
+}
+
+a:link {
+  color: blue }
+a:visited {
+  color: blue }
+address {
+  margin-top: 1em;
+  padding-top: 1em; }
